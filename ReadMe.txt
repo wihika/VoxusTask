@@ -7,6 +7,9 @@ Li o .pdf de intrucoes dia 20/11/2017, comecei a programar efetivamente dia 21/1
 com a Fernanda Aveiro.
 Para comecar estudei quais frameworks que eu conhecia que poderiam atender a maioria das atividades descritas. Apos 
 analise decidi usar Django.
+Como ja passei muito das 72h limite da entrega,  pois nao consegui tempo para trabalhar muito no projeto pois trabalho 
+full time atualmente, resolvi nao estender mais e entregar sem fazer a parte 5, que percebi que demoraria mais tempo
+ainda estudando e implementando o servico com a API do servico da amazon.
 
 Parte 1: 
 CRUD: 2h (final da noite depois do trabalho do dia 21/11/2017)
