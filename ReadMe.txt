@@ -9,7 +9,8 @@ Para comecar estudei quais frameworks que eu conhecia que poderiam atender a mai
 analise decidi usar Django.
 Como ja passei muito das 72h limite da entrega,  pois nao consegui tempo para trabalhar muito no projeto pois trabalho 
 full time atualmente, resolvi nao estender mais e entregar sem fazer a parte 5, que percebi que demoraria mais tempo
-ainda estudando e implementando o servico com a API do servico da amazon.
+ainda estudando e implementando o servico com a API do servico da amazon. Pelo mesmo motivo nao me preocupei em deixar
+o site da tarefa bonito, nao apliquei CSS nem defini estilos internos do HTML.
 
 Parte 1: 
 CRUD: 2h (final da noite depois do trabalho do dia 21/11/2017)
@@ -36,7 +37,8 @@ abertos no localhost).
 
 Parte 4: 
 Tasks Completas: 30min (logo depois de terminar a parte 3 no dia 25/11/2017)
-Bastou adicionar um campo booleano novo para ser essa flag na tabela das tarefas e subir as migracoes para o banco.
+Bastou adicionar um campo booleano novo para ser essa flag na tabela das tarefas e subir as migracoes para o banco. E 
+alterar os fomularios e HTML para apresentar esse dado.
 
 Parte 5:
 NAO FOI REALIZADA
