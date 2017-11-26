@@ -28,20 +28,20 @@
 	    <div>
 	        <form method="POST" action="/">
 						<input type="hidden" name="id" value={{ t.id }}><br>
-	          <input type="text" name="title" value={{ t.title }}><br>
-	          <input type="text" name="description" value={{ t.description }}><br>
-	          <input type="text" name="owner" value={{ t.owner }}><br>
-	          <input type="boolean" name="state" value={{ t.state }}><br>
-						<input type="int" name="priority" value={{ t.priority }}><br>
+	          Title: <input type="text" name="title" value={{ t.title }}><br>
+	          Description: <input type="text" name="description" value={{ t.description }}><br>
+	          Owner: <input type="text" name="owner" value={{ t.owner }}><br>
+	          State: <input type="boolean" name="state" value={{ t.state }}><br>
+						Priority: <input type="int" name="priority" value={{ t.priority }}><br>
 						{% if t.state == 1%}
-						<input type="text" name="owner" value={{ t.updated_by }}><br>
+						Owner: <input type="text" name="owner" value={{ t.updated_by }}><br>
 						{% endif %}
 	          <input type="submit" name="delete_task" value="Delete">{%csrf_token%}
 	          <input type="submit" name="state_task" value="Done">{%csrf_token%}
 	        </form>
 					{% for u in t.getUploads%}
 							Attachment #{{ forloop.counter }}:
-								<a href="file://localhost{{ uploadPath }}/{{ u.attached.filename }}" target="_blank">{{ u.attached.name }}</a>
+								<a href="file://localhost{{ uploadPath }}/{{ u.attached.name }}">{{ u.attached.name }}</a>
 							<br/>
 					{% endfor %}
 	    </div>
